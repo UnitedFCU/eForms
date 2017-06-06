@@ -1,0 +1,261 @@
+#printMsg
+{
+	font-size:16px;
+	font-color: #006666;
+	font-weight:bold;
+}
+
+.inside_banner h1
+{
+	float:right;padding:0 30px 0 0;
+}
+
+.hide
+{
+visibility:hidden;  
+}
+input[readonly]
+{
+background-color:grey;!important
+}
+.center
+{
+text-align: center;
+}
+input.red, select.red, tr.red, input.inputError,.redfont
+{
+background-color:red;!important
+}
+
+input.yellow, select.yellow, tr.yellow,textarea.yellow
+{
+background-color:yellow;!important
+}
+
+input.grey, select.grey, tr.grey, textarea.grey  
+{
+background-color:#ddd;!important
+}
+
+.readonly
+{
+	background-color: #F2F2F2 !important;
+    color: #C6C6C6;
+    border-color: #ddd;
+}
+
+
+.OkEdit
+{
+	background-color:lightgreen;
+}
+
+.WarningEdit
+{
+	background-color:yellow;
+}
+
+input:read-only {
+    background-color: grey;
+} 
+
+input[readonly="readonly"]
+{
+    background-color:#dddddd;
+}
+
+/* basic styles */
+body {margin: 0px; font-family: arial, sans-serif; font-size: 12px; text-align: center; background: url(../images/Background-Slice.jpg) repeat-x #d7e4f7; }
+/*.page {width: 971px; margin: 0px auto; text-align: left; }*/
+.page {width: 100%; margin: 0px auto;  }
+.page {width: 100%; margin: 0px auto;  text-align: -moz-center;  }
+
+ 
+
+
+.righto {width: 702px; margin-left: 30px; display: inline; background: none;}
+/*.shadow {width: 702px; background: url(../images/Center-Slice.png) repeat-y; padding-left: 2px; display: inline;}*/
+.shadow {width: 700px; background: none white; border-right: solid 1px #7496b9; border-left: solid 1px #86a2c3; overflow: hidden; margin: 0px 0px 0px 1px; padding: 0px}
+
+.column{width: 237px; display: inline}
+
+
+/* for pngs as backgrounds {height: px; width: px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src="",sizingMethod="scale");} */
+/* for pngs in IE6 */
+.hiddenalt {display: none;}
+
+p, td, li, blockquote {font-size: 13px;color: #363636; }
+a, a:hover {color: black;}
+a:hover {color: #00518e;}
+
+a.homelink {display: inline;}
+
+/*.content ul {list-style: none;}*/
+/*.content ul li {background: url(../images/bullet.gif) no-repeat left top; margin-left: 0px; padding-left: 20px; margin-bottom: 5px;}*/
+
+h1 {color: #c69b2d; font-size: 16px;}
+h2, .content_rates_category1 {color: #00518e; font-size: 14px; font-weight:bold;}
+h3, .content_rates_table_title {color: #00518e; font-size: 12px; font-weight:bold; text-transform: uppercase;}
+h4 {color: #00518e; font-size: 12px; font-weight: bold; }
+h5 {color: black; font-size: 12px; font-weight: bold; }
+h6 {color: black; font-size: 12px; font-style: italic; font-weight: bold;}
+
+.floatR {position: relative; float: right;}
+.floatL {position: relative; float: left;}
+.breaker {clear: both;}
+.border {border: solid 1px red;}
+.bttmpad {margin-bottom: 10px}
+
+/* rates page */
+.content_rates_table {margin-bottom: 20px; width: 100%;}
+.content_rates_table_fields {background-color: #00518e; color: white; font-weight: bold; }
+.content_rates_table_row2 {background-color: #dfe5ef;}
+.content_rates_table_row_highlight {color: #0a6104;}
+
+/* for polls */
+.region table td table td {padding: 2px;}
+.region table td table{margin-bottom: 10px;}
+
+/* featured rates */
+.regions_rates_table {width: 100%;}
+.regions_rates_table_row1, .regions_rates_table_row2 { border-bottom: 1px solid #00518e; font-size: 10px; }
+.regions_rates_table_effectivedate {font-size: 9px;}
+.regions_rates_table_title {display: none;}
+.regions_rates_table_fields { font-size: 10px; color: #00518e;}
+
+
+.ratebox {width: 207px; margin-left: 15px;}
+.ratebox h1 {color: #00518e;}
+.aprnote {font-size: 10px; width: 180px;}
+.ratebox form input {border: solid 1px #00518e; width: 187px;}
+
+/* top links / utilities */
+.toplinks {text-align: right; color: white; text-transform: uppercase; margin: 15px;}
+a.toplink {text-decoration: none; color: white;}
+a.toplink:visted {font-weight: bold; text-decoration: none; color: white;}
+a.toplink:hover {text-decoration: underline; color: #e9e0ca;}
+.pipe {font-weight: bold; margin: 0px 5px 0px 5px;}
+
+.search {display: inline;}
+.searchbox {width: 100px; border: none; font-size: 11px; margin: 0px 5px;}
+
+.ask {background: url(../images/Ask-a-Q.gif) no-repeat; width: 455px; height: 36px; text-align: left;}
+.ask form { margin: 0px; padding: 0px;}
+.askbox {border: solid 1px silver; width: 265px; margin: 10px 10px 0px 150px; }
+.askbttn {position: relative; top: 2px}
+
+.banner {width: 702px; background: url(../images/top.jpg) no-repeat; }
+.bluebar2 {width: 698px; background-color: #00518e; height: 20px; border-left: solid 1px white; border-right: solid 1px white; overflow: hidden; display: block}
+ 
+.menu {width: 700px; height: 49px; z-index: 100; display: inline;}
+.menu_home {width: 697px; height: 49px; background-color: white; z-index: 100; }
+
+/* for home page tabs*/
+
+.box {width: 657px;  height: 275px; background-color: white; z-index: 100; margin-left: 20px; overflow: hidden}/*250*/
+#two, #three, #four {display: none; z-index: 100;}
+a.link1, a.link2, a.link3, a.link1_on, a.link2_on, a.link3_on, a.link4, a.link4_on {display: block; width: 175px; height: 49px; position: relative; float: left; }
+a.link1 {background: url(../images/Personal-up.gif); width: 173px; }
+a.link2 {background: url(../images/Business-up.gif); width: 175px; }
+a.link3 {background: url(../images/eServices-up.gif); width: 175px; }
+a.link4 {background: url(../images/Education-up.gif); width: 174px; }
+a.link1:hover, a.link1_on {background: url(../images/Personal-over.gif); width: 173px; }
+a.link2:hover, a.link2_on {background: url(../images/Business-over.gif);}
+a.link3:hover, a.link3_on {background: url(../images/eServices-over.gif);}
+a.link4:hover, a.link4_on {background: url(../images/Education-over.gif); width: 174px; }
+a.goldlink { color: #c69b2d; text-decoration: none; min-width: 200px; }
+a.goldlink:hover {color: #00518e; text-decoration: none;}
+
+table.hometable {width: 100%; border-collapse: collapse; border-spacing: 0px;}
+table.hometable td.Rborder, table.hometable td.noborder {width: 33%; padding: 0px 15px;}
+table.hometable td.Rborder {border-right: solid 1px silver;}
+.box h1 {margin-top: 20px; font-style: italic;}
+table.hometable h2 {margin-top: 0px; border-bottom: solid 1px silver; display: block;}
+
+a.addthis_button {display: inline;}
+.content {  background-color: white; padding: 20px; margin: 0px; border: 0px; text-align:center;}
+
+.crumbs {margin-bottom: 10px; width: 400px; display: block}
+
+.home_banner{margin: 20px 0px 0px 20px; display: inline}
+.inside_banner{width: 702px; display: block; height: 140px; background: url(../images/eformheader.gif);} 
+
+.hb_power {background: url(../images/PowerLink-HB.jpg) no-repeat; width: 237px; height: 234px; margin: 13px 0px;}
+.hb_power iframe {margin: 45px 0px 0px 30px;}
+
+.hb_clear {background: url(../images/ClearStar-HB.jpg) no-repeat; width: 237px; height: 186px; margin-top: 5px;}
+.hb1, .hb2, .hb3, .hb4 {position: relative; left: 45px; top: 70px;}
+.hb2 {top: 75px;}
+.hb3 {top: 85px; left: 30px; font-size: 10px;}
+a.blacklink {color: black; text-decoration: underline;}
+a.blacklink:hover {color: #00518e;}
+.hb4 {left: 130px; top: 59px;}
+
+/* regions */
+.regions {z-index: 99; width: 204px; margin-left: 10px;}
+/* .regionbox use min-height here and height in IEstyle */
+.regionbox ul, .subbox ul, table.hometable ul{margin: 0px; padding: 10px 0px 0px 0px; list-style: none;}
+.regionbox ul li, .subbox ul li, table.hometable ul li {padding: 0px 0px 5px 0px; background: none;}
+.regionbox h1, .subbox h1 {margin: 0px; color: #00518e}
+.subbox{background: url(../images/Inside-Region-Left-Slice.png) repeat-y; width: 207px; padding: 5px 15px;}
+
+.regiontop, .code_block_indiv_top {background: url(../images/Inside-Region-Right-Top.gif) no-repeat; width: 201px; height: 12px; overflow: hidden;}
+.regionbox, .code_block_indiv_content {background-color:#e9e0ca; width: 171px; padding: 5px 15px; }
+.regionbottom, .code_block_indiv_bttm { margin-bottom: 10px; background: url(../images/Inside-Region-Right-bottom.gif) no-repeat; width: 201px; height: 10px; overflow: hidden;}
+
+/* for sidebar content regions 
+- define code_block the same as regions
+- make top and bottom region images backgroudn images in code_indiv_top and code_block_indiv_bottom
+- define code_block_indiv_center same as regionbox
+*/
+.code_block {overflow: hidden; width: 100%} /* prevents breaking the design with images that are too wide, if width set */
+.code_block_top {}
+.code_block_center {}
+.code_block_bttm {}
+.code_block_indiv_content p{margin-top: 0px;}
+
+
+
+/* footer */
+.shoe {width: 704px; height: 18px;}
+.bottomlinks {text-transform: uppercase; width: 700px; text-align: right; margin: 10px;}
+a.bottomlink, a.bottomlink:visited {font-weight: bold; text-decoration: none; color: #00518e;}
+a.bottomlink:hover {text-decoration: underline; color: #c69b2d;}
+
+.footlogos {margin: 15px 0px 0px 150px; width: 900px; display: inline}
+.footnote {font-size: 10px; width: 710px; text-align: left; line-height: .9; margin-top: 10px;}
+.blunote {color: #003399;}
+
+
+/*
+change '#00518e' to main site color
+pale #00518e bg - #d7e4f7
+
+Ask A Question ¨C 73 pixels from the top
+Home page Banners and the inside page Headers - 108 pixels from the top
+PowerLink HB ¨C 207 pixels from the top
+Clearstar HB ¨C 506 pixels from the top
+
+Colors
+#00518e - #00518e
+Light #00518e - #8eacd3 (lines and outlines around text fields)
+Background color - #cadaf1
+Gold - #c69b2d
+Light Gold - #e9e0ca
+
+
+*/
+
+a.anchorclass {background: url(../images/Drop-Down-Arrow.gif) no-repeat right white; height: 21px; width: 150px; display: block; border: solid 1px #00518e; text-decoration: none; margin-top: 10px; vertical-align: center; line-height: 21px; padding-left: 5px;}
+a.anchorclass:hover {background-color: #e9e0ca; text-decoration: none;}
+
+.anylinkcss{position: absolute; visibility: hidden; border: 1px solid black; border-bottom-width: 0; font: normal 12px arial; z-index: 100; background: white; width: 155px; text-align: left; margin-left: 0px; margin-top: -1px;}
+.anylinkcss ul{margin: 0; padding: 0; list-style-type: none;}
+.anylinkcss ul li a{width: 100%; height: 20px; overflow: hidden; text-indent: 5px; display: block; border-bottom: 1px solid black; padding: 1px 0; text-decoration: none;}
+.anylinkcss a:hover{background: #e9e0ca; color:black;text-decoration: none;}
+
+
+.adnav {width: 683px; background: url(../images/Space-Below-Banner.png); height: 20px; display: inline; position: relative; float: left; padding: 3px 10px}
+.adnav table {position: relative; float: right; top: 2px;}
+.prevpipe {font-weight: bold; margin: 0px 5px 0px 5px; color: #ffffff; position: relative; top: -4px;}
+#gostp0, .prevpipe {position: relative; top: -2px;}

@@ -1,0 +1,738 @@
+body {
+    background-color: #ffffff;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+.page {
+    margin: 0 auto;
+    padding: 1px 0;
+    text-align: left;
+    width: 813px;
+}
+.brown {
+    background-color: #650C06;
+    height: 101px;
+    width: 100%;
+}
+.shadow {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/goldbar.gif") repeat-x scroll 0 0 transparent;
+    color: white;
+    height: 28px;
+    padding-top: 12px;
+}
+.shadow_home {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/shadow.gif") repeat-x scroll 0 0 transparent;
+    height: 10px;
+}
+.cream {
+    background-color: #F1F0DE;
+    width: 100%;
+}
+.black {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/footer_bg.gif") repeat-x scroll 0 0 black;
+    height: 133px;
+}
+.home_page {
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    width: 813px;
+}
+.hiddenalt {
+    display: none;
+}
+p, td, li, blockquote {
+    font-size: 12px;
+}
+a, a:visited {
+    color: black;
+}
+a:hover {
+    color: #63100A;
+}
+img {
+    border: medium none;
+}
+ul, p {
+    margin-top: 9px;
+}
+ul li {
+    margin-bottom: 5px;
+}
+h1, .content_rates_category1, .RegionHeaders {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+h2 {
+    color: #518BB8;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+h3 {
+    color: #518BB8;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h4 {
+    color: #518BB8;
+    font-size: 12px;
+    font-weight: bold;
+}
+h5 {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+h6 {
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+.floatR {
+    float: right;
+    position: relative;
+}
+.floatL {
+    float: left;
+    position: relative;
+}
+.breaker {
+    clear: both;
+}
+.border {
+    border: 1px solid red;
+}
+.bttmpad {
+    margin-bottom: 10px;
+}
+.abso {
+    position: absolute;
+}
+.content_rates_table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.content_rates_table_fields {
+    background-color: #A9913E;
+    color: white;
+}
+.content_rates_table_row2 {
+    background-color: #F6F6EE;
+}
+.content_rates_table_row_highlight {
+    color: #0A6104;
+}
+.content_rates_table_title {
+    color: #518BB8;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.region table td table td {
+    padding: 2px;
+}
+.region table td table {
+    margin-bottom: 10px;
+}
+.regions_rates_table {
+    width: 100%;
+}
+.regions_rates_table_row1, .regions_rates_table_row2 {
+    background-color: silver;
+    border-bottom: 3px solid white;
+    font-size: 10px;
+}
+.regions_rates_table_effectivedate {
+    font-size: 9px;
+}
+.regions_rates_table_title {
+    display: none;
+}
+.regions_rates_table_fields {
+    color: #538CB7;
+    font-size: 10px;
+}
+.aprnote {
+    font-size: 10px;
+    width: 180px;
+}
+.content_calendar_table {
+    border: 1px solid black;
+}
+td.content_calendar_table_headercell {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+td.content_calendar_table_headercell a, td.content_calendar_table_headercell a:visited {
+    color: white;
+    text-decoration: none;
+}
+td.content_calendar_table_headercell a:hover {
+    color: silver;
+    text-decoration: none;
+}
+td.content_calendar_table_cell {
+    border: 1px solid black;
+}
+td.content_calendar_table_selectedcell {
+    background-color: silver;
+    border: 1px solid black;
+}
+ul.content_article_list {
+    padding-left: 15px;
+}
+ul.content_article_list li {
+    list-style: none outside none;
+}
+.banner {
+    height: 101px;
+    margin: 0 auto;
+    text-align: left;
+    width: 813px;
+}
+.bigbanner, .home_menu, .home_content {
+    position: absolute;
+}
+.bigbanner {
+    left: 30px;
+}
+.home_content {
+    height: 110px;
+    left: 35px;
+    overflow: hidden;
+    top: 340px;
+    width: 778px;
+}
+.home_content table td {
+    padding: 0 10px 0 0;
+}
+.home_content table td p {
+    margin-top: 0;
+}
+.home_menu {
+    height: 250px;
+    margin-top: 20px;
+    width: 192px;
+    z-index: 20000;
+}
+.rollover span.alt {
+    display: none;
+}
+.rollover img {
+    border: medium none;
+}
+:root .rollover img {
+    display: block;
+}
+.rollover, .rollover:visited {
+    background-color: transparent !important;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.rollover:hover, .rollover:focus, .rollover:active, .rollover.MMO, .rollover.MMO:visited, .rollover.MM1O {
+    background-position: 0 -42px;
+}
+ul.SM1 li, ul.SM3 li {
+    border-bottom: 1px solid gray;
+}
+.MM2 .rollover:hover, .MM2 .rollover:focus, .MM2 .rollover:active, .MM2 .rollover.MMO, .MM2 .rollover.MMO:visited, .MM2 .rollover.MM2O {
+    background-position: 0 -28px;
+}
+.MM3 .rollover:hover, .MM3 .rollover:focus, .MM3 .rollover:active, .MM3 .rollover.MMO, .MM3 .rollover.MMO:visited, .MM3 .rollover.MM3O {
+    background-position: 0 -17px;
+}
+.menu {
+    height: 17px;
+    margin-top: 30px;
+    text-align: right;
+    width: 498px;
+    z-index: 98;
+}
+.MM3 a {
+    margin-left: 10px;
+}
+.SM2 {
+    left: -50px;
+}
+.MM2 {
+    display: inline;
+    float: left;
+    width: 150px;
+}
+table.hb {
+    width: 480px;
+}
+table.hb th {
+    color: #B9A34D;
+    font-size: 14px;
+    font-weight: bold;
+}
+table.hb td {
+    border: 0 solid silver;
+}
+table.hb td table td {
+    border: 0 none;
+}
+table.hbnew {
+    width: 240px;
+}
+table.hbnew th {
+    color: #B9A34D;
+    font-size: 14px;
+    font-weight: bold;
+}
+table.hbnew td {
+    border: 0 solid silver;
+}
+table.hbnew td table td {
+    border: 0 none;
+}
+#q2online a {
+    text-decoration: underline;
+}
+a.submenu, a.submenu:visited {
+    background-color: transparent;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+a.submenu:hover, a.submenuon, a.submenuon:visited {
+    background-color: #63100A;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+a.submenuon:hover {
+    text-decoration: underline;
+}
+.toplinks {
+    font-size: 11px;
+    margin: 15px 0 0;
+    text-align: right;
+    z-index: 99;
+}
+.MM2 a {
+    margin-left: 10px;
+}
+.toplinks_landing {
+    color: white;
+    font-size: 11px;
+    margin: 15px 0 0;
+    text-align: right;
+    text-transform: uppercase;
+    z-index: 99;
+}
+.toplinks_landing a, .toplinks_landing a:visited {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.toplinks_landing a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.search {
+    border-bottom: 1px solid #B9A34D;
+    font-size: 11px;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 180px;
+}
+.searchbox {
+    font-size: 11px;
+    margin: 5px 5px 5px 0;
+    width: 100px;
+}
+.content {
+    border-right: 1px dotted #928F86;
+    margin: 15px 15px 15px 0;
+    padding-right: 15px;
+    width: 580px;
+}
+.contentR {
+    border-left: 1px dotted #928F86;
+    margin: 15px 0 15px 15px;
+    padding-left: 15px;
+    width: 580px;
+}
+.box td {
+    background-color: #F6F6EE;
+    padding: 10px 15px;
+    width: 100%;
+}
+.box td:hover {
+    background-color: white;
+    padding: 10px 15px;
+    width: 100%;
+}
+.regions {
+    padding-top: 15px;
+    width: 200px;
+    z-index: 97;
+}
+.regionbox ul, .code_block_indiv_content ul {
+    border-top: 1px dotted #928F86;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.regionbox ul li, .code_block_indiv_content ul li {
+    border-bottom: 1px dotted #928F86;
+    padding: 5px 0;
+}
+.regionbox ul li a, .regionbox ul li a:visited, .code_block_indiv_content ul li a, .code_block_indiv_content ul li a:visited {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/right-arrow.gif") no-repeat scroll left center transparent;
+    color: black;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.regionbox ul li a:hover, .code_block_indiv_content ul li a:hover {
+    color: #538CB7;
+    text-decoration: none;
+}
+.regionbox ul li a.linkon, .regionbox ul li a.linkon:visited {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/right-arrow-black.gif") no-repeat scroll left center transparent;
+    color: black;
+    font-weight: bold;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.regions2 {
+    padding-top: 15px;
+    width: 150px;
+    z-index: 97;
+}
+.regions3 {
+    padding-top: 15px;
+    width: 150px;
+    z-index: 97;
+}
+.content2 {
+    border-right: 1px dotted #928F86;
+    margin: 15px 10px 15px 15px;
+    padding-right: 10px;
+    width: 475px;
+}
+.regions3 .regionbox {
+    border-bottom: 1px dotted #928F86;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.regionbox h1, .code_block_indiv_content h1 {
+    font-size: 14px;
+}
+.boxtop, .code_block_indiv_top {
+}
+.regionbox, .code_block_indiv_content {
+}
+.boxbottom, .code_block_indiv_bttm {
+    margin-bottom: 10px;
+}
+.code_block {
+    overflow: hidden;
+    width: 100%;
+}
+.code_block_top {
+}
+.code_block_center {
+}
+.code_block_bttm {
+}
+.code_block_indiv_content p {
+    margin-top: 0;
+}
+.shoe {
+    height: 126px;
+    margin: 0 auto;
+    text-align: left;
+    width: 813px;
+}
+.bottomlinks {
+    font-size: 11px;
+    margin-top: 25px;
+    width: 180px;
+}
+a.bottomlink, a.bottomlink:visited {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+a.bottomlink:hover {
+    color: #A9913E;
+    text-decoration: underline;
+}
+.bottomlinks div {
+    margin-right: 25px;
+}
+.footlogos {
+    color: white;
+    margin-top: 25px;
+    width: 510px;
+}
+.footlogos img {
+    margin-right: 15px;
+}
+.footnote {
+    font-size: 10px;
+    line-height: 0.9;
+    text-align: left;
+    width: 410px;
+}
+.blunote {
+    color: white;
+}
+.alert {
+    font-weight: bold;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 30px;
+    text-align: left;
+    width: 748px;
+}
+.alert span {
+    color: red;
+}
+.alert a, .alert a:visited {
+    color: #538CB7;
+    text-decoration: none;
+}
+.alert a:hover {
+    color: black;
+    text-decoration: none;
+}
+.links {
+    color: #79A2D3;
+    margin-top: 10px;
+    width: 400px;
+}
+.links a, .links a:visited {
+    color: #79A2D3;
+    text-decoration: none;
+}
+.links a:hover {
+    color: #A9913E;
+    text-decoration: none;
+}
+.icons {
+    display: inline;
+    float: left;
+    position: relative;
+}
+.icons img {
+    margin-left: 10px;
+}
+.breadcrumb {
+    color: #B9A34D;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+}
+.breadcrumb a, .breadcrumb a:visited {
+    color: #B9A34D;
+}
+.breadcrumb a:hover {
+    color: #63100A;
+}
+.links2 {
+    margin-top: 10px;
+    position: relative;
+    width: 400px;
+}
+.footicon {
+    border: 0 solid yellow;
+    display: inline;
+}
+.one {
+    height: 22px;
+    left: 310px;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+}
+.two {
+    left: 373px;
+    position: absolute;
+    top: 5px;
+}
+.three {
+    left: 329px;
+    position: absolute;
+    top: 0;
+}
+.gold {
+    background-color: #B9A34D;
+    color: white;
+    display: block;
+}
+a.anchorclass {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/dropdown_arrow.gif") no-repeat scroll right center #F7F7ED;
+    border: 1px solid #00518E;
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    margin-top: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+    width: 150px;
+}
+a.anchorclass:hover {
+    background-color: white;
+    text-decoration: none;
+}
+.anylinkcss {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F7F7ED;
+    border-color: #63100A;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    font: 12px arial;
+    margin-left: 0;
+    margin-top: -1px;
+    position: absolute;
+    text-align: left;
+    visibility: hidden;
+    width: 155px;
+    z-index: 100;
+}
+.anylinkcss ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.anylinkcss ul li a {
+    border-bottom: 1px solid #63100A;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    padding: 1px 0;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 100%;
+}
+.anylinkcss a:hover {
+    background: none repeat scroll 0 0 #E9E0CA;
+    text-decoration: none;
+}
+.stateform {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.dropbox {
+    text-align: center;
+    width: 100%;
+}
+#hidethis {
+    display: none;
+    z-index: 0;
+}
+.in_mourning {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/mourning_veil.png") repeat scroll 0 0 transparent;
+    border: 0 solid yellow;
+    height: 100%;
+    left: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.in_mourning .page {
+    text-align: center;
+}
+.square {
+    background-color: white;
+    height: 325px;
+    margin: 20% auto;
+    padding: 10px;
+    text-align: left;
+    width: 385px;
+}
+.square input.required, .square textarea.required {
+    width: 250px;
+}
+.square img {
+    border: 0 none;
+}
+.square .title, .square a {
+    color: black;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul.faqlist {
+    list-style: none outside none;
+}
+ul.faqlist li {
+    margin-top: 5px;
+}
+ul.faqlist li a, ul.faqlist li a:visited {
+    text-decoration: none;
+}
+ul.faqlist li a:hover {
+    text-decoration: none;
+}
+.answer {
+    background-color: #F7F6EE;
+    margin: 5px 0 10px;
+    padding: 5px 10px;
+}
+table.linkslist {
+    margin-bottom: 10px;
+    width: 580px;
+}
+.linkslist {
+}
+a.counter {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/countdown.png") no-repeat scroll 0 0 transparent;
+    color: white;
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    height: 98px;
+    padding: 63px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+.countdown {
+    background: url("https://www.unitedfcu.com/templates/unfed_2011/images/countdown2.png") no-repeat scroll 0 0 transparent;
+    height: 90px;
+    left: -3px;
+    position: relative;
+    top: 4px;
+    width: 180px;
+}
+.countdown a {
+    color: white;
+    display: block;
+    font-size: 34px;
+    font-weight: bold;
+    height: 79px;
+    opacity: 0.7;
+    padding: 15px 0 0 110px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+}
